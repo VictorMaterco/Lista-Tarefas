@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+}
+
+body {
+    background-color:rgba(255, 127, 80, 0.192);
+}
+
+header {
+    margin-top: 40px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 127, 80, 0.541);
+}
+header img {
+    height: 80px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    padding: 24px 0;
+    text-align: center;
+}
+
+form h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+input, button {
+    padding: 6px ;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}
+
+input {
+    width: 60%;
+    background-color:  rgba(255, 127, 80, 0.336);;
+}
+
+input:focus {
+    outline-color: rgba(0, 0, 0, 0.568);
+}
+
+button {
+    width: 15%;
+    background-color: rgba(255, 127, 80, 0.336);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color:  rgba(255, 127, 80, 0.541);
+    border: 1px solid black;
+}
+
+ul {
+    display: block;
+    font-size: 15px;
+}
+
+ul li {
+    width: 65%;
+    margin: 0 auto;
+    padding: 3px;
+}
+
